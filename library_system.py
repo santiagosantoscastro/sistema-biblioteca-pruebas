@@ -1,12 +1,3 @@
-"""
-Sistema de Gestión de Biblioteca
----------------------------------
-Software sencillo utilizado como caso de estudio para el taller de
-Calidad de Software. Permite registrar libros, prestarlos, devolverlos
-y calcular multas por retraso en la devolución.
-
-Autor: Equipo de trabajo - Taller ACA (Semanas 5, 6, 7 y 8)
-"""
 
 from dataclasses import dataclass, field
 from datetime import date
