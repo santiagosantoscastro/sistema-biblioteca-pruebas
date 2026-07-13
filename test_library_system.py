@@ -66,7 +66,7 @@ class TestSistemaBiblioteca(unittest.TestCase):
         self.assertEqual(multa_negativa, 0)     # nunca debe ser negativa
 
     # ------------------------------------------------------------------
-    # Caso adicional: búsqueda de un libro inexistente
+    # búsqueda de un libro inexistente
     # ------------------------------------------------------------------
     def test_busqueda_libro_inexistente(self):
         with self.assertRaises(LibroNoEncontradoError):
